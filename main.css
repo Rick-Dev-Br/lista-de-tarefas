@@ -55,3 +55,11 @@ button {
     text-decoration: line-through black wavy;
     cursor: pointer;
 }
+
+footer  {
+    padding: 10px 0;
+    background-color:rgba(79,79,79,0.8);
+    text-align: center;
+    margin: 0 auto; /* permite diminuir o background  */
+    max-width: 450px;/* diminuindo o background */
+}
