@@ -1,0 +1,57 @@
+body {
+    background-image: url('imagens/lists-6131220_1920.jpg');
+    text-align: center;
+    max-width: 1280px;
+}
+
+
+h2,h1 {
+    padding: 17px;
+    text-align: center;
+    background-color: #fff;
+    font-family: "Lilita One", sans-serif;
+    margin: 0 auto; /* para centralizar o background basta usar esse margin */
+    max-width: 300px;
+    margin-bottom: 5px;
+    font-size: 30px;
+}
+
+#lista-tarefas {
+    list-style-position: inside; /* Coloca os números dentro do espaço do <li> */
+    padding-left: 0; /* Remove o padding padrão da lista */
+}
+
+#lista-tarefas  li {
+    font-family: "Anton", sans-serif;
+    color: #fff;
+    cursor: pointer; 
+    text-align: center;   
+    font-weight: 200;
+    font-size: 20px;
+}
+
+input {
+    padding: 15px 45px;
+    
+    
+}
+
+button {
+    background-color: #3CB371;
+    padding: 14px;
+    border: none;
+    font-family: "Anton", sans-serif;
+    cursor: pointer;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 14px;
+} 
+
+::placeholder {
+    font-family: "Lilita One", sans-serif
+}
+
+.riscado { /* é possivel criar uma class direto pelo csss */
+    text-decoration: line-through black wavy;
+    cursor: pointer;
+}
